@@ -15,7 +15,6 @@
 * Wine API - https://www.globalwinescore.com/api/ 
 * Weather API - https://www.ncei.noaa.gov/access/search/data-search/global-summary-of-the-year
 * Weather Analysis - https://www.evineyardapp.com/blog/2019/01/17/climate-weather-and-vineyard-management/
-* Soil API - https://data.nal.usda.gov/dataset/soil-data-access-web-service
 
 ## Communication Protocols
 * Communicate through Slack.  Everyone uploads data to their Github branch and create a pull request.  Sonia merges the data after everyone discuss the final plans. 
