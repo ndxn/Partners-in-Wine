@@ -16,6 +16,22 @@
 * Weather API - https://www.ncei.noaa.gov/access/search/data-search/global-summary-of-the-year
 * Weather Analysis - https://www.evineyardapp.com/blog/2019/01/17/climate-weather-and-vineyard-management/
 
+## Resources
+Data Source:  Python 3.7.6, Anaconda 4.8.4, Jupyter Notebook 6.0.3, Google Colaboratory, spark 3.0.1, java-11, PostgreSQL11.8 (pgAdmin 4.23)
+ 
+## Technologies Used
+### * Data Cleaning and Analysis
+Pandas will be used to clean the data and perform an exploratory analysis. Further analysis will be completed using Python.
+
+### * Database Storage
+PostgreSQL will be the database we intend to use to store data.
+
+### * Machine Learning
+SciKitLearn is the ML library we'll be using to create a classifier. Our training and testing setup is ___. Extra ML verbiage here.
+
+### * Dashboard
+Tableau will be used to connect the database and create visualizations.
+
 ## Communication Protocols
 * Communicate through Slack.  Everyone uploads data to their Github branch and create a pull request.  Sonia merges the data after everyone discuss the final plans. 
 
