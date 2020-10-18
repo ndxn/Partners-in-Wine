@@ -25,7 +25,7 @@ Pandas will be used to clean the data and perform an exploratory analysis. Furth
 
 ### * Database Storage
 PostgreSQL will be the database we intend to use to store data.
-This is the link to our database notebook from google colab: ![Red & White Wine_Database](https://colab.research.google.com/drive/1HHpNHs4IPrtHj3WlnRHKqREtJmzaJNHD?usp=sharing)
+This is the link to our database notebook from google colab: [Red & White Wine_Database](https://colab.research.google.com/drive/1HHpNHs4IPrtHj3WlnRHKqREtJmzaJNHD?usp=sharing)
 
 ### * Machine Learning
 SciKitLearn is the ML library we'll be using to create a classifier. Our training and testing setup is ___. Extra ML verbiage here.
