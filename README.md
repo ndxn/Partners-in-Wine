@@ -16,7 +16,7 @@
 ## Questions the team hopes to answer with the data:
 
 * How does weather impact wine scores?
-    * How do wine scores correlate with rain, temperature, humidity, and sunlight? Averages ? HOw can we use this to predict wine quality ? 
+    * How do wine scores correlate with rain, temperature, humidity, and sunlight? Averages ? How can we use this to predict wine quality ? 
     * How does score vary by region in USA , by type ( red, white) ?
 * How does soil quality affect wine scores ?
     * Wine by wine ID yearly prediction , by region
