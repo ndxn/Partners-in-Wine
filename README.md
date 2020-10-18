@@ -2,10 +2,10 @@
 ## First Segment
 
 * Selected topic:
-* Factors affecting wine quality
+* Weather and soil conditions affecting wine quality
 
 ## Reason they selected the topic:
-* We Like Wine , diverse dataset, enough information
+* We like wine , diverse dataset, enough information to pull acorss three API's. One for red and white wine , one for weather and one for soil. 
 
 ## Description of the source of data:
 * Globalwinescore.com using an API token
@@ -16,9 +16,7 @@
 ## Questions the team hopes to answer with the data:
 
 * How does weather impact wine scores?
-* How do wine scores correlate with rain, temperature, humidity, and sunlight?
-* How does score vary by region in USA , by type ( red, white) 
-* How does region or soil quality affect wine scores
-* Look at other countries - France Grande Cru Classe( Napoleon wine classification ) 
-* Containers ? 
-* Wine by wine ID yearly prediction , by region (diversity east coast vs west coast ) 
+    * How do wine scores correlate with rain, temperature, humidity, and sunlight? Averages ? HOw can we use this to predict wine quality ? 
+    * How does score vary by region in USA , by type ( red, white) ?
+* How does soil quality affect wine scores ?
+    * Wine by wine ID yearly prediction , by region
