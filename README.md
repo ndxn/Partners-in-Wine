@@ -9,7 +9,7 @@
 * Weather and soil conditions affecting wine quality
 
 ## Reason we selected the topic:
-* We like wine , diverse dataset, enough information to pull acorss three API's. One for red and white wine , one for weather and one for soil. 
+* We like wine , diverse dataset, enough information to pull across three API's. One for red and white wine , one for weather and one for soil. 
 
 ## Description of the source of data:
 * Wine API - https://www.globalwinescore.com/api/ 
