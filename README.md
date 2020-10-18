@@ -1,7 +1,8 @@
 # Wine_Weather
-## First Segment
+## First Segment 10.18.2020 
+* Group #5 , Sonia , Val, Shawn, Neal, Viral and Meredith. 
 
-* Selected topic:
+## Selected topic:
 * Weather and soil conditions affecting wine quality
 
 ## Reason they selected the topic:
