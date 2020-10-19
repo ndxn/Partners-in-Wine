@@ -28,7 +28,7 @@ PostgreSQL will be the database we intend to use to store data.
 This is the link to our database notebook from google colab: [Red & White Wine_Database](https://colab.research.google.com/drive/1HHpNHs4IPrtHj3WlnRHKqREtJmzaJNHD?usp=sharing)
 
 ### * Machine Learning
-SciKitLearn is the ML library we'll be using to create a classifier. Our training and testing setup is ___. Extra ML verbiage here.
+SciKitLearn is the ML library we'll be using to create a classifier. Our training and testing setup is ___. We used the deep neutral networl to train our model and for red and white wine we got 89% and 87% accuracy respectively.
 
 ### * Dashboard
 Tableau will be used to connect the database and create visualizations.
