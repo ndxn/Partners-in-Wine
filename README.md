@@ -25,13 +25,14 @@ Pandas will be used to clean the data and perform an exploratory analysis. Furth
 
 ### * Database Storage
 PostgreSQL will be the database we intend to use to store data.
-This is the link to our database notebook from google colab: [Red & White Wine_Database](https://colab.research.google.com/drive/1HHpNHs4IPrtHj3WlnRHKqREtJmzaJNHD?usp=sharing)
 
 ### * Machine Learning
 SciKitLearn is the ML library we'll be using to create a classifier. Our training and testing setup is ___. We used the deep neutral networl to train our model and for red and white wine we got 85% and 86% accuracy respectively.
 
 ### * Dashboard
 Tableau will be used to connect the database and create visualizations.
+
+***Link to our  notebook from google colab where we have our mock up database and machine learning model: [Red & White Wine_Database & Machine Learning](https://colab.research.google.com/drive/1HHpNHs4IPrtHj3WlnRHKqREtJmzaJNHD?usp=sharing)***
 
 ## Communication Protocols
 * Communicate through Slack.  Everyone uploads data to their Github branch and create a pull request.  Sonia merges the data after everyone discuss the final plans. 
