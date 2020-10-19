@@ -27,7 +27,7 @@ Pandas will be used to clean the data and perform an exploratory analysis. Furth
 PostgreSQL will be the database we intend to use to store data.
 
 ### * Machine Learning
-SciKitLearn is the ML library we'll be using to create a classifier. Our training and testing setup is ___. We used the deep neutral networl to train our model and for red and white wine we got 85% and 86% accuracy respectively.
+SciKitLearn is the ML library we'll be using to create a classifier. Our training and testing setup is ___. We used the deep neutral networl to train our model and for red and white wine we got 84% and 87% accuracy respectively.
 
 ### * Dashboard
 Tableau will be used to connect the database and create visualizations.
