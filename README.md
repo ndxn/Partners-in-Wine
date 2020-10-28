@@ -1,6 +1,6 @@
 ![](image/Vineyard-chalk-soil.jpg)
 
-## *Partners In WIne*
+# *Partners In WIne*
 
 ## First Segment of four 10.18.2020 
 * Group #5 , Sonia , Val, Shawn, Neal, Viral and Meredith. 
