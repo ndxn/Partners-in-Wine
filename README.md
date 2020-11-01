@@ -83,15 +83,15 @@ Some of the challenges for finding the best weather data was to find zip codes t
   4.) Explanation of model choice, including limitations and benefits :
   
    ## * Red Wine
-    * For the sklearn deep learning neural network, we got an accuracy of 88% for red wine, 80% for red wine with weather, 88% for red wine with soil and 89% for red wine with weather and soil.
-    * For Random forest Classifier, we got an accuracy of 88% for red wine, 80% for red wine with weather, 88% for red wine with soil and 89% for red wine with weather and soil. 
-    * For Logistic Regression, we got an accuracy of 88% for red wine, 80% for red wine with weather, 88% for red wine with soil and 89% for red wine with weather and soil. 
+    * For the sklearn deep learning neural network, we got an accuracy of 87% for red wine, 86% for red wine with weather, 88% for red wine with soil and 86% for red wine with weather and soil.
+    * For Random forest Classifier, we got an accuracy of 100% for red wine, 99% for red wine with weather, 100% for red wine with soil and 98% for red wine with weather and soil. 
+    * For Logistic Regression, we got an accuracy of 96% for red wine, 97% for red wine with weather, 82% for red wine with soil and 67% for red wine with weather and soil. 
   
   ## * White Wine
    
-    * For the sklearn deep learning neural network, we got an accuracy of 88% for white wine, 80% for red wine with weather, 88% for white wine with soil and 89% for white wine with weather and soil.
-    * For Random forest Classifier, we got an accuracy of 88% for white wine, 80% for white wine with weather, 88% for white wine with soil and 89% for white wine with weather and soil. 
-    * For Logistic Regression, we got an accuracy of 88% for white wine, 80% for white wine with weather, 88% for white wine with soil and 89% for white wine with weather and soil. 
+    * For the sklearn deep learning neural network, we got an accuracy of 87% for white wine, 86% for red wine with weather, 84% for white wine with soil and 89% for white wine with weather and soil.
+    * For Random forest Classifier, we got an accuracy of 100% for white wine, 87% for white wine with weather, 99% for white wine with soil and 89% for white wine with weather and soil. 
+    * For Logistic Regression, we got an accuracy of 96% for white wine, 88% for white wine with weather, 88% for white wine with soil and 89% for white wine with weather and soil. 
 
 
 We decided the best model for our analysis is the Logistic Regression since we are trying to predict the quality of wine as good(1) and bad(0) but the limitations here is that more sturdy model like  Neural Networks can easily outperform this algorithm. The benefits of this model is that it's easier to implement and very efficient to train.
