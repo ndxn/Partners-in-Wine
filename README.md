@@ -51,15 +51,15 @@ Tableau will be used to connect the database and create visualizations.
   * Each member of team has there own branch and makes at least 4 commits per week 
   * README.MD 
 
+* Database - 
+  * ERD - 
+  * Tables and joins 
+
 * Machine Learning Module - 
   * Description of preliminary data preprocessing 
   *  Description of preliminary feature engineering and preliminary feature selection, including their decision making process. 
   *  Description of how data was split into training and testing sets
   *  Explanation of model choice, including limitations and benefits 
-
-* Database - 
-  * ERD - 
-  * Tables and joins 
   
 * Analysis 
 
