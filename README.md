@@ -64,8 +64,17 @@ Some of the challenges for finding the best weather data was to find zip codes t
   * Tables and joins 
 
 * Machine Learning Module - 
-  * Description of preliminary data preprocessing 
-  *  Description of preliminary feature engineering and preliminary feature selection, including their decision making process. 
+
+  1.) Description of preliminary data preprocessing -
+    * I started by loading the data into a panda Dataframe, then i followed this following tasks.
+    * Checked and dropped null values
+    * Convert the score column from float to integer and split score into good(1) and bad(0) and making it it's own column "quality" to use as our target. 
+    * Checked for number of unique values in each column to find out which columns required binning and binned appellation. 
+    * Created the OneHotEncoder instance,  Fitted the encoder and produce encoded DataFrame and renamed encoded columns.
+    * Merged one-hot encoded features and drop the originals
+
+  *  Description of preliminary feature engineering and preliminary feature selection, including their decision making process
+   Split our preprocessed data into our features and target arrays. 
   *  Description of how data was split into training and testing sets
   *  Explanation of model choice, including limitations and benefits 
   
