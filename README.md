@@ -74,9 +74,10 @@ Some of the challenges for finding the best weather data was to find zip codes t
     * Merged one-hot encoded features and drop the originals
 
   2.) Description of preliminary feature engineering and preliminary feature selection, including their decision making process
-  3.) Split our preprocessed data into our features and target arrays. 
-  4.) Description of how data was split into training and testing sets
-  5.) Explanation of model choice, including limitations and benefits 
+  
+  3.) Description of how data was split into training and testing sets
+  
+  4.) Explanation of model choice, including limitations and benefits 
   
 * Analysis - 
   * Look at results from wine data alone, wine data with weather data, wine data with soil data and wine data with weather and soil data. 
