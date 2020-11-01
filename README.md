@@ -75,10 +75,6 @@ Some of the challenges for finding the best weather data was to find zip codes t
 * Dashboard - 
   * Tableau - Bulkd various tables and interactive map in tablea for dashboard. 
 
-## Description of data exploration phase 
-
-## Description of the analysis phase of the project 
-
 ## Questions the team hopes to answer with the data:
 
 * How does weather impact wine quality?
