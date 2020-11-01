@@ -37,7 +37,7 @@ SciKitLearn is the ML library we'll be using to create a classifier.  Deep neura
 ### * Dashboard
 Tableau will be used to connect the database and create visualizations.
 
-***Link to our  notebook from google colab where we have our mock up database and machine learning model: [Red & White Wine_Database & Machine Learning](https://colab.research.google.com/drive/1HHpNHs4IPrtHj3WlnRHKqREtJmzaJNHD?usp=sharing)***
+***Link to our  notebook from google colab where we have our database and machine learning model: [_Database](https://colab.research.google.com/drive/1VZLidDt7rMeo9TxoEEyR0zL_bbrxcGTJ?usp=sharing) & [Machine Learning](https://colab.research.google.com/drive/1WkwaS39cydCKG4UDTj3ZkPOxPKXn4VY7?usp=sharing)
 
 ## Communication Protocols
 * Communicate through Slack.  Everyone uploads data to their Github branch and create a pull request.  Sonia merges the data after everyone discuss the final plans. 
