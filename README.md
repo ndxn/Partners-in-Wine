@@ -52,6 +52,7 @@ Tableau will be used to connect the database and create visualizations.
   * README.MD 
 
 * Data exploration - 
+  *
 
 * Database - 
   * ERD - 
@@ -63,10 +64,11 @@ Tableau will be used to connect the database and create visualizations.
   *  Description of how data was split into training and testing sets
   *  Explanation of model choice, including limitations and benefits 
   
-* Analysis 
+* Analysis - 
+  * Look at results from wine data alone, wine data with weather data, wine data with soil data and wine data with weather and soil data. 
 
 * Dashboard - 
- * Tableau - 
+  * Tableau - Bulkd various tables and interactive map in tablea for dashboard. 
 
 ## Description of data exploration phase 
 
