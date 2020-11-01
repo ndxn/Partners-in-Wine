@@ -46,7 +46,7 @@ Tableau will be used to connect the database and create visualizations.
 
 * Presentation - 
   *Google Slides - 
-  ***Link to our storyboard for blue print for Tableau: (https://docs.google.com/presentation/d/1EcvvVfTKL4tIiHU0a4hKMTTqq7IEtSOj4YtlxHUAT4Q/edit?usp=sharing) 
+  ***Link to our storyboard for blue print for Tableau: [Tableau Wine Dahsboard](https://docs.google.com/presentation/d/1EcvvVfTKL4tIiHU0a4hKMTTqq7IEtSOj4YtlxHUAT4Q/edit?usp=sharing) 
 
 * Github - 
   * Each member of team has there own branch and makes at least 4 commits per week 
@@ -70,7 +70,7 @@ Tableau will be used to connect the database and create visualizations.
 
 * Dashboard - 
   * Tableau - Build various tables and interactive map in tablea for dashboard. Rough draft storyboard built in google slides. 
-  ***Link to google presentations:(https://docs.google.com/presentation/d/1EcvvVfTKL4tIiHU0a4hKMTTqq7IEtSOj4YtlxHUAT4Q/edit?usp=sharing)
+  ***Link to google presentations:[Wine Quality Machine Learning](https://docs.google.com/presentation/d/1EcvvVfTKL4tIiHU0a4hKMTTqq7IEtSOj4YtlxHUAT4Q/edit?usp=sharing)
   
 
 ## Description of data exploration phase 
