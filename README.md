@@ -51,6 +51,8 @@ Tableau will be used to connect the database and create visualizations.
   * Each member of team has there own branch and makes at least 4 commits per week 
   * README.MD 
 
+* Data exploration - 
+
 * Database - 
   * ERD - 
   * Tables and joins 
