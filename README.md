@@ -73,10 +73,10 @@ Some of the challenges for finding the best weather data was to find zip codes t
     * Created the OneHotEncoder instance,  Fitted the encoder and produce encoded DataFrame and renamed encoded columns.
     * Merged one-hot encoded features and drop the originals
 
-  *  Description of preliminary feature engineering and preliminary feature selection, including their decision making process
-   Split our preprocessed data into our features and target arrays. 
-  *  Description of how data was split into training and testing sets
-  *  Explanation of model choice, including limitations and benefits 
+  2.) Description of preliminary feature engineering and preliminary feature selection, including their decision making process
+  3.) Split our preprocessed data into our features and target arrays. 
+  4.) Description of how data was split into training and testing sets
+  5.) Explanation of model choice, including limitations and benefits 
   
 * Analysis - 
   * Look at results from wine data alone, wine data with weather data, wine data with soil data and wine data with weather and soil data. 
