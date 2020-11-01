@@ -1,9 +1,13 @@
 ![](image/Vineyard-chalk-soil.jpg)
 
-# *Partners In WIne*
+# *Partners In Wine*
 
 ## First Segment of four 10.18.2020 
 * Group #5 , Sonia , Val, Shawn, Neal, Viral and Meredith. 
+
+## Second Segement of four 10.31.2020
+* Group #5, Sonia , Val, Shawn, Neal, Viral and Meredith 
+
 
 ## Selected topic:
 * Weather and soil conditions affecting wine quality
@@ -15,6 +19,7 @@
 * Wine API - https://www.globalwinescore.com/api/ 
 * Weather API - https://www.ncei.noaa.gov/access/search/data-search/global-summary-of-the-year
 * Weather Analysis - https://www.evineyardapp.com/blog/2019/01/17/climate-weather-and-vineyard-management/
+* 
 
 ## Resources
 Data Source:  Python 3.7.6, Anaconda 4.8.4, Jupyter Notebook 6.0.3, Google Colaboratory, spark 3.0.1, java-11, PostgreSQL11.8 (pgAdmin 4.23)
@@ -37,6 +42,34 @@ Tableau will be used to connect the database and create visualizations.
 ## Communication Protocols
 * Communicate through Slack.  Everyone uploads data to their Github branch and create a pull request.  Sonia merges the data after everyone discuss the final plans. 
 
+## Outline of project 
+
+* Presentation - 
+  * Google Slides - 
+
+* Github - 
+  * Each member of team has there own branch and makes at least 4 commits per week 
+  * README.MD 
+
+* Machine Learning Module - 
+  * Description of preliminary data preprocessing 
+  *  Description of preliminary feature engineering and preliminary feature selection, including their decision making process. 
+  *  Description of how data was split into training and testing sets
+  *  Explanation of model choice, including limitations and benefits 
+
+* Database - 
+  * ERD - 
+  * Tables and joins 
+  
+* Analysis 
+
+* Dashboard - 
+ * Tableau - 
+
+## Description of data exploration phase 
+
+## Description of the analysis phase of the project 
+
 ## Questions the team hopes to answer with the data:
 
 * How does weather impact wine quality?
@@ -45,4 +78,4 @@ Tableau will be used to connect the database and create visualizations.
     
 * How does soil quality affect wine quality ?
 
- * Wine by wine ID yearly prediction , by region
+* Wine by wine ID yearly prediction , by region
