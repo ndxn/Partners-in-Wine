@@ -55,7 +55,7 @@ Tableau will be used to connect the database and create visualizations.
   *
 
 * Database - 
-  * ERD - 
+  * ERD - to be included
   * Tables and joins 
 
 * Machine Learning Module - 
