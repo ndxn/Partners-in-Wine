@@ -68,7 +68,7 @@ Tableau will be used to connect the database and create visualizations.
   * Look at results from wine data alone, wine data with weather data, wine data with soil data and wine data with weather and soil data. 
 
 * Dashboard - 
-  * Tableau - Bulkd various tables and interactive map in tablea for dashboard. 
+  * Tableau - Build various tables and interactive map in tablea for dashboard. Rough draft storyboard built in google slides. 
 
 ## Description of data exploration phase 
 
