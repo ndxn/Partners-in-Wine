@@ -5,7 +5,7 @@
 ## First Segment of four 10.18.2020 
 * Group #5 , Sonia , Val, Shawn, Neal, Viral and Meredith. 
 
-## Second Segement of four 10.31.2020
+## Second Segement of four 11.01.2020
 * Group #5, Sonia , Val, Shawn, Neal, Viral and Meredith 
 
 
