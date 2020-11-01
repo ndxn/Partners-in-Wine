@@ -65,8 +65,9 @@ Some of the challenges for finding the best weather data was to find zip codes t
 
 * Machine Learning Module - 
 
-  1.) Description of preliminary data preprocessing -
-    * I started by loading the data into a panda Dataframe, then i followed this following tasks.
+  1.) Description of preliminary data preprocessing :
+  
+   I started by loading the data into a panda Dataframe, then i followed these steps:
     * Checked and dropped null values
     * Convert the score column from float to integer and split score into good(1) and bad(0) and making it it's own column "quality" to use as our target. 
     * Checked for number of unique values in each column to find out which columns required binning and binned appellation. 
