@@ -85,33 +85,37 @@ Once the relationship of the database was created, we added the data into a Post
 
 #### Machine Learning Module 
 
-  1.) Description of preliminary data preprocessing :
+   1.) Description of preliminary data preprocessing :
   
-   I started by loading the data into a panda Dataframe, then i followed these steps:
+   I started by loading the data into a panda Dataframe, then I followed these steps:
     * Checked and dropped null values
-    * Convert the score column from float to integer and split score into good(1) and bad(0) and making it it's own column "quality" to use as our target. 
+    * Convert the score column from float to integer and split score into good(1) and bad(0) and making it its own column "quality" to use as our target. 
     * Checked for number of unique values in each column to find out which columns required binning and binned appellation. 
     * Created the OneHotEncoder instance,  Fitted the encoder and produce encoded DataFrame and renamed encoded columns.
     * Merged one-hot encoded features and drop the originals
 
   2.) Description of preliminary feature engineering and preliminary feature selection, including their decision making process:
-  We decided to use the wine score to determine the quality of wine and for feature we ddecided to look at wine data by itself, wine data with weather data, wine data with soil data and wine data with weather and soil data.
+  We decided to use the wine score to determine the quality of wine and for feature we decided to look at wine data by itself, wine data with weather data, wine data with soil data and wine data with weather and soil data.
   
   3.) Description of how data was split into training and testing sets:
      * For splitting the data into training and testing sets I used sklearn train_test_split to split the dataset into random train and test subsets.
   
   4.) Explanation of model choice, including limitations and benefits :
   
-   ## * Red Wine
-    * For the sklearn deep learning neural network, we got an accuracy of 87% for red wine, 86% for red wine with weather, 88% for red wine with soil and 86% for red wine with weather and soil.
-    * For Random forest Classifier, we got an accuracy of 100% for red wine, 99% for red wine with weather, 100% for red wine with soil and 98% for red wine with weather and soil. 
-    * For Logistic Regression, we got an accuracy of 96% for red wine, 97% for red wine with weather, 82% for red wine with soil and 67% for red wine with weather and soil. 
-  
-  ## * White Wine
+  ## Red Wine
+   * For the sklearn deep learning neural network, we got an accuracy of 87% for red wine, 86% for red wine with weather, 87% for red wine with soil and 85% for red wine with weather and soil.
+   * For Random forest Classifier, we got an accuracy of 100% for red wine, 99% for red wine with weather, 100% for red wine with soil and 98% for red wine with weather and soil. 
+   * For Logistic Regression, we got an accuracy of 95% for red wine, 97% for red wine with weather, 95% for red wine with soil and 95% for red wine with weather and soil. 
+
+  ## White Wine
    
-    * For the sklearn deep learning neural network, we got an accuracy of 87% for white wine, 86% for red wine with weather, 84% for white wine with soil and 89% for white wine with weather and soil.
-    * For Random forest Classifier, we got an accuracy of 100% for white wine, 87% for white wine with weather, 99% for white wine with soil and 89% for white wine with weather and soil. 
-    * For Logistic Regression, we got an accuracy of 96% for white wine, 88% for white wine with weather, 88% for white wine with soil and 89% for white wine with weather and soil. 
+   * For the sklearn deep learning neural network, we got an accuracy of 75% for white wine, 80% for red wine with weather, 79% for white wine with soil and 80% for white wine with weather and soil.
+   * For Random forest Classifier, we got an accuracy of 100% for white wine, 95% for white wine with weather, 97% for white wine with soil and 94% for white wine with weather and soil. 
+   * For Logistic Regression, we got an accuracy of 90% for white wine, 90% for white wine with weather, 90% for white wine with soil and 90% for white wine with weather and soil. 
+
+
+We decided the best model for our analysis is the Logistic Regression since we are trying to predict the quality of wine as good(1) and bad(0). The limitation of the model is  that  it can be easily outperformed by sturdier model like  Neural Networks,  also its high reliance on a proper presentation of your data 
+ The benefits of this model are that it's easier to implement,  very efficient to train and it outputs well-calibrated predicted probabilities.
 
 * Analysis - 
   * Look at results from wine data alone, wine data with weather data, wine data with soil data and wine data with weather and soil data. 
