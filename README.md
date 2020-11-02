@@ -36,7 +36,7 @@ SciKitLearn is the ML library we'll be using to create a classifier.  Deep neura
 
 ### * Dashboard
 Tableau will be used to connect the database and create visualizations. 
-***Link to our goolge slide storyboard:(https://docs.google.com/presentation/d/1EcvvVfTKL4tIiHU0a4hKMTTqq7IEtSOj4YtlxHUAT4Q/edit?usp=sharing)
+***Link to our goolge slide storyboard:[Wine Quality Dashboard Outline](https://docs.google.com/presentation/d/1EcvvVfTKL4tIiHU0a4hKMTTqq7IEtSOj4YtlxHUAT4Q/edit?usp=sharing)
 
 ***Link to our  notebook from google colab where we have our mock up database and machine learning model: [Red & White Wine_Database & Machine Learning](https://colab.research.google.com/drive/1HHpNHs4IPrtHj3WlnRHKqREtJmzaJNHD?usp=sharing)***
 
@@ -47,7 +47,7 @@ Tableau will be used to connect the database and create visualizations.
 
 * Presentation - 
   * Google Slides - 
-  ***Link to rough draft of our presentation on google slides:(https://docs.google.com/presentation/d/1-MctTWS8TrRcArjXzD5Xvzrx4bVrTv7aOP1SWWkiZ2g/edit?usp=sharing)
+  ***Link to rough draft of our presentation on google slides:[Wine Quality Macine Leanring](https://docs.google.com/presentation/d/1-MctTWS8TrRcArjXzD5Xvzrx4bVrTv7aOP1SWWkiZ2g/edit?usp=sharing)
 
 * Github - 
   * Each member of team has there own branch and makes at least 4 commits per week 
