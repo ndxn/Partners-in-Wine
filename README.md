@@ -122,6 +122,8 @@ For splitting the data into training and testing sets I used sklearn train_test_
   * For Random Forest Classifier, we got an accuracy of 100% for white wine, 95% for white wine with weather, 97% for white wine with soil and 94% for white wine with weather and soil. 
   * For Logistic Regression, we got an accuracy of 90% for white wine, 90% for white wine with weather, 90% for white wine with soil and 90% for white wine with weather and soil. 
 
+ ## Benefits & Limitations
+ 
 * Deep Learning Neural Network -  The limitation of the model is that it requires a large amount of data and it's not easy to comprehend. The benefits of this model can solve complex problems.
 * Random Forest Classifier - The limitation is that features need to have some predictive power to work. The benefit is handling of huge amount of data, No problem of overfitting
 * Logistic Regression - The limitation of the model is  that  it can be easily outperformed by sturdier model like  Neural Networks,  also its high reliance on a proper presentation of your data. The benefits of this model are that it's easier to implement,  very efficient to train and it outputs well-calibrated predicted probabilities.
