@@ -61,8 +61,7 @@ Some of the challenges for finding the best weather data was to find zip codes t
 
 
 * Database - 
-  * ERD 
-  * Tables and joins 
+  The data was connected through primary keys (unique values in the main table) and foreign keys (unique values in other tables. See the ERD of Red Wine and White Wine below:
   
 ![](image/Red_White_Wine_ERD.png)
 
