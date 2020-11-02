@@ -47,7 +47,7 @@ Tableau will be used to connect the database and create visualizations.
 
 * Presentation - 
   * Google Slides - 
-  ***Link to rough draft of our presentation on google slides:[Wine Quality Macine Leanring](https://docs.google.com/presentation/d/1-MctTWS8TrRcArjXzD5Xvzrx4bVrTv7aOP1SWWkiZ2g/edit?usp=sharing)
+  ***Link to rough draft of our presentation on google slides:[Wine Quality Machine Leanring](https://docs.google.com/presentation/d/1-MctTWS8TrRcArjXzD5Xvzrx4bVrTv7aOP1SWWkiZ2g/edit?usp=sharing)
 
 * Github - 
   * Each member of team has there own branch and makes at least 4 commits per week 
@@ -59,7 +59,6 @@ The wine data takes different wines and scores going back to 1992.<p>
 
 Some of the challenges for finding the best weather data was to find zip codes that have reliable temperature and precipitation data. Most of the zip codes had data that originated before 1992 but the stations had missig dates for temperature, precipitation, or both of the values. The process for finding optimal stations involved an iterative process of importing different zip codes for temperature data and different zip codes for precipitation data to determine which zip codes have the best coverage of data. Another challenge to merging weather and wine data was that several appellations (regions) within a state straddled two different zip codes. One of the assumptions this study has made was that weather data would be the same for zip codes that were within 50 mile radius of one another. This allowed the group to assign zip codes for certain appellations and allowed the data to be merged together more succinctly. The wine data comes from wine that is concentrated in Washington State, Oregon, Napa Valley California, Sonoma County California, and the Santa Cruz Mountains in California as well. There were some appellations that only have one or two data points that were dropped from the study.<p>
 
-* Neal can put something in here about Soil data
 
 * Database - 
   * ERD - 
@@ -99,7 +98,7 @@ Some of the challenges for finding the best weather data was to find zip codes t
   * Look at results from wine data alone, wine data with weather data, wine data with soil data and wine data with weather and soil data. 
 
 * Dashboard - 
-  * Tableau - Bulkd various tables and interactive map in tablea for dashboard. 
+  * Tableau - Build various tables and interactive map in tablea for dashboard. 
 
 ## Questions the team hopes to answer with the data:
 
