@@ -83,16 +83,22 @@ Some of the challenges for finding the best weather data was to find zip codes t
 
 Once the relationship of the database was created, we use AWS to read and write data from our notebook to and from SQL. In SQL, we join soil table to the red wine table, and soil table to the white table. [SQLQuery](https://github.com/soijebor/Wine_Weather/blob/main/Wine_join.sql)
 
+
+### Analysis
+
+Look at results from wine data alone, wine data with weather data, wine data with soil data and wine data with weather and soil data. 
+  
 #### Machine Learning Module 
 
    1.) Description of preliminary data preprocessing :
   
    I started by loading the data into a panda Dataframe, then I followed these steps:
-    * Checked and dropped null values
-    * Convert the score column from float to integer and split score into good(1) and bad(0) and making it its own column "quality" to use as our target. 
-    * Checked for number of unique values in each column to find out which columns required binning and binned appellation. 
-    * Created the OneHotEncoder instance,  Fitted the encoder and produce encoded DataFrame and renamed encoded columns.
-    * Merged one-hot encoded features and drop the originals
+   
+   * Checked and dropped null values
+   * Convert the score column from float to integer and split score into good(1) and bad(0) and making it its own column "quality" to use as our target. 
+   * Checked for number of unique values in each column to find out which columns required binning and binned appellation. 
+   * Created the OneHotEncoder instance,  Fitted the encoder and produce encoded DataFrame and renamed encoded columns.
+   * Merged one-hot encoded features and drop the originals
 
   2.) Description of preliminary feature engineering and preliminary feature selection, including their decision making process:
   We decided to use the wine score to determine the quality of wine and for feature we decided to look at wine data by itself, wine data with weather data, wine data with soil data and wine data with weather and soil data.
@@ -114,15 +120,9 @@ Once the relationship of the database was created, we use AWS to read and write 
    * For Random Forest Classifier, we got an accuracy of 100% for white wine, 95% for white wine with weather, 97% for white wine with soil and 94% for white wine with weather and soil. 
    * For Logistic Regression, we got an accuracy of 90% for white wine, 90% for white wine with weather, 90% for white wine with soil and 90% for white wine with weather and soil. 
 
- * Deep Learning Neural Network -  The limitation of the model is that it requires a large amount of data and it's not easy to comprehend. The benefits of this model can solve complex problems.
- * Random Forest Classifier - The limitation is that features need to have some predictive power to work. The benefit is handling of huge amount of data, No problem of overfitting
- * Logistic Regression - The limitation of the model is  that  it can be easily outperformed by sturdier model like  Neural Networks,  also its high reliance on a proper presentation of your data. The benefits of this model are that it's easier to implement,  very efficient to train and it outputs well-calibrated predicted probabilities.
- 
-* Analysis - 
-  * Look at results from wine data alone, wine data with weather data, wine data with soil data and wine data with weather and soil data. 
-
-* Dashboard - 
-  * Tableau - Build various tables and interactive map in tablea for dashboard. 
+* Deep Learning Neural Network -  The limitation of the model is that it requires a large amount of data and it's not easy to comprehend. The benefits of this model can solve complex problems.
+* Random Forest Classifier - The limitation is that features need to have some predictive power to work. The benefit is handling of huge amount of data, No problem of overfitting
+* Logistic Regression - The limitation of the model is  that  it can be easily outperformed by sturdier model like  Neural Networks,  also its high reliance on a proper presentation of your data. The benefits of this model are that it's easier to implement,  very efficient to train and it outputs well-calibrated predicted probabilities.
   
 ![](image/rs_500x283-150522135111-amy-schumer-oversized-glass-of-wine.gif)
 
