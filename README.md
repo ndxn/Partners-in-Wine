@@ -81,7 +81,7 @@ Some of the challenges for finding the best weather data was to find zip codes t
   
 ![](image/Red_White_Wine_ERD.png)
 
-Once the relationship of the database was created, we added the data into a PostgresSQL database. 
+Once the relationship of the database was created, we use AWS TO create tables into a PostgresSQL database. 
 
 #### Machine Learning Module 
 
