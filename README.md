@@ -103,20 +103,20 @@ Once the relationship of the database was created, we use AWS to read and write 
   4.) Explanation of model choice, including limitations and benefits :
   
   ## Red Wine
-   * For the sklearn deep learning neural network, we got an accuracy of 87% for red wine, 86% for red wine with weather, 87% for red wine with soil and 85% for red wine with weather and soil.
-   * For Random forest Classifier, we got an accuracy of 100% for red wine, 99% for red wine with weather, 100% for red wine with soil and 98% for red wine with weather and soil. 
+  
+   * For the Deep Learning Neural Network, we got an accuracy of 87% for red wine, 86% for red wine with weather, 87% for red wine with soil and 85% for red wine with weather and soil.
+   * For Random Forest Classifier, we got an accuracy of 100% for red wine, 99% for red wine with weather, 100% for red wine with soil and 98% for red wine with weather and soil.
    * For Logistic Regression, we got an accuracy of 95% for red wine, 97% for red wine with weather, 95% for red wine with soil and 95% for red wine with weather and soil. 
 
   ## White Wine
    
-   * For the sklearn deep learning neural network, we got an accuracy of 75% for white wine, 80% for red wine with weather, 79% for white wine with soil and 80% for white wine with weather and soil.
-   * For Random forest Classifier, we got an accuracy of 100% for white wine, 95% for white wine with weather, 97% for white wine with soil and 94% for white wine with weather and soil. 
+   * For the Deep Learning Neural Network, we got an accuracy of 75% for white wine, 80% for red wine with weather, 79% for white wine with soil and 80% for white wine with weather and soil. 
+   * For Random Forest Classifier, we got an accuracy of 100% for white wine, 95% for white wine with weather, 97% for white wine with soil and 94% for white wine with weather and soil. 
    * For Logistic Regression, we got an accuracy of 90% for white wine, 90% for white wine with weather, 90% for white wine with soil and 90% for white wine with weather and soil. 
 
-
-We decided the best model for our analysis is the Logistic Regression since we are trying to predict the quality of wine as good(1) and bad(0). The limitation of the model is  that  it can be easily outperformed by sturdier model like  Neural Networks,  also its high reliance on a proper presentation of your data 
- The benefits of this model are that it's easier to implement,  very efficient to train and it outputs well-calibrated predicted probabilities.
-
+  * Deep Learning Neural Network -  The limitation of the model is that it requires a large amount of data and it's not easy to comprehend. The benefits of this model can solve complex problems.
+  * Random Forest Classifier - The limitation is that features need to have some predictive power to work. The benefit is handling of huge amount of data, No problem of overfitting
+  * Logistic Regression - The limitation of the model is  that  it can be easily outperformed by sturdier model like  Neural Networks,  also its high reliance on a proper presentation of your data. The benefits of this model are that it's easier to implement,  very efficient to train and it outputs well-calibrated predicted probabilities.
 * Analysis - 
   * Look at results from wine data alone, wine data with weather data, wine data with soil data and wine data with weather and soil data. 
 
