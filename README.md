@@ -79,8 +79,9 @@ Some of the challenges for finding the best weather data was to find zip codes t
   
 ![](image/Red_White_Wine_ERD.png)
 
-Once the relationship of the database was created, we use AWS to read and write data from our notebook to and from SQL. In SQL, we join soil table to the red wine table, and soil table to the white table. [SQLQuery](https://github.com/soijebor/Wine_Weather/blob/main/Wine_join.sql)
-[Database Notebook](https://colab.research.google.com/drive/1VZLidDt7rMeo9TxoEEyR0zL_bbrxcGTJ?usp=sharing)
+Once the relationship of the database was created, we use AWS to read and write data from our notebook to and from SQL. In SQL, we join soil table to the red wine table, and soil table to the white table. [SQLQuery](https://github.com/soijebor/Wine_Weather/blob/main/Database%20%26%20ML%20Notebooks/Wine_join.sql)
+
+***[Database Notebook](https://colab.research.google.com/drive/1VZLidDt7rMeo9TxoEEyR0zL_bbrxcGTJ?usp=sharing)***
 
 ### Analysis
 
@@ -88,8 +89,9 @@ Look at results from wine data alone, wine data with weather data, wine data wit
   
 #### Machine Learning Module 
 
-[Red Wine ML Notebook](https://colab.research.google.com/drive/1WkwaS39cydCKG4UDTj3ZkPOxPKXn4VY7?usp=sharing)
-[White Wine ML Notebook](https://colab.research.google.com/drive/1-_BtJxo7SUc-Q6tVwCBjJzZ3cLfpf-Jg?usp=sharing)
+***[Red Wine ML Notebook](https://colab.research.google.com/drive/1WkwaS39cydCKG4UDTj3ZkPOxPKXn4VY7?usp=sharing)***
+
+***[White Wine ML Notebook](https://colab.research.google.com/drive/1-_BtJxo7SUc-Q6tVwCBjJzZ3cLfpf-Jg?usp=sharing)***
 
 1.) Description of preliminary data preprocessing :
 
