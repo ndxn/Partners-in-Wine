@@ -61,8 +61,10 @@ Some of the challenges for finding the best weather data was to find zip codes t
 
 
 * Database - 
-  * ERD - 
+  * ERD 
   * Tables and joins 
+  
+![](image/Red_White_Wine_ERD.png)
 
 * Machine Learning Module - 
 
