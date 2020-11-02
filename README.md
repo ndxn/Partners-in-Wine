@@ -122,6 +122,8 @@ We decided the best model for our analysis is the Logistic Regression since we a
 
 * Dashboard - 
   * Tableau - Build various tables and interactive map in tablea for dashboard. 
+  
+![](image/rs_500x283-150522135111-amy-schumer-oversized-glass-of-wine.gif)
 
 ## Questions the team hopes to answer with the data:
 
