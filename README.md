@@ -93,9 +93,6 @@ Some of the challenges for finding the best weather data was to find zip codes t
     * For Random forest Classifier, we got an accuracy of 100% for white wine, 87% for white wine with weather, 99% for white wine with soil and 89% for white wine with weather and soil. 
     * For Logistic Regression, we got an accuracy of 96% for white wine, 88% for white wine with weather, 88% for white wine with soil and 89% for white wine with weather and soil. 
 
-
-We decided the best model for our analysis is the Logistic Regression since we are trying to predict the quality of wine as good(1) and bad(0) but the limitations here is that more sturdy model like  Neural Networks can easily outperform this algorithm. The benefits of this model is that it's easier to implement and very efficient to train.
-  
 * Analysis - 
   * Look at results from wine data alone, wine data with weather data, wine data with soil data and wine data with weather and soil data. 
 
