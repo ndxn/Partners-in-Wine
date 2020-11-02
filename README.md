@@ -19,7 +19,6 @@
 * Wine API - https://www.globalwinescore.com/api/ 
 * Weather API - https://www.ncei.noaa.gov/access/search/data-search/global-summary-of-the-year
 * Weather Analysis - https://www.evineyardapp.com/blog/2019/01/17/climate-weather-and-vineyard-management/
-* 
 
 ## Resources
 Data Source:  Python 3.7.6, Anaconda 4.8.4, Jupyter Notebook 6.0.3, Google Colaboratory, spark 3.0.1, java-11, PostgreSQL11.8 (pgAdmin 4.23)
@@ -43,30 +42,36 @@ Tableau will be used to connect the database and create visualizations.
 ## Communication Protocols
 * Communicate through Slack.  Everyone uploads data to their Github branch and create a pull request.  Sonia merges the data after everyone discuss the final plans. 
 
+![](image/RedandWhitepic.png)
+
 ## Outline of project 
 
-* Presentation - 
-  * Google Slides - 
+#### Presentation 
+
+  ##### Google Slides 
   ***Link to rough draft of our presentation on google slides:[Wine Quality Machine Leanring](https://docs.google.com/presentation/d/1-MctTWS8TrRcArjXzD5Xvzrx4bVrTv7aOP1SWWkiZ2g/edit?usp=sharing)
 
-* Github - 
+#### Github 
+
   * Each member of team has there own branch and makes at least 4 commits per week 
   * README.MD 
 
-* Data exploration - 
+#### Data exploration 
+
 This step involved importing APIs to call weather, wine and soil data. The data was collected from Global Wine Scores, NOAA, and the USGS website. It was then cleaned and finally merged together. Data was split between white wine and red wine before the weather and soil data was merged with it. The Global Wine Scores website has data for wines, the regions that they were grown in, and the scores associated with each wine. These vintages range from 1992 to 2016 and have an average score of approximately 91%. 
-The wine data takes different wines and scores going back to 1992.<p>
+ The wine data takes different wines and scores going back to 1992.<p>
 
 Some of the challenges for finding the best weather data was to find zip codes that have reliable temperature and precipitation data. Most of the zip codes had data that originated before 1992 but the stations had missig dates for temperature, precipitation, or both of the values. The process for finding optimal stations involved an iterative process of importing different zip codes for temperature data and different zip codes for precipitation data to determine which zip codes have the best coverage of data. Another challenge to merging weather and wine data was that several appellations (regions) within a state straddled two different zip codes. One of the assumptions this study has made was that weather data would be the same for zip codes that were within 50 mile radius of one another. This allowed the group to assign zip codes for certain appellations and allowed the data to be merged together more succinctly. The wine data comes from wine that is concentrated in Washington State, Oregon, Napa Valley California, Sonoma County California, and the Santa Cruz Mountains in California as well. There were some appellations that only have one or two data points that were dropped from the study.<p>
 
-
-* Database - 
+ #### Database 
 
   The data was connected through primary keys (unique values in the main table) and foreign keys (unique values in other tables. See the ERD of Red Wine and White Wine below:
   
 ![](image/Red_White_Wine_ERD.png)
 
-* Machine Learning Module - 
+Once the relationship of the database was created, we added the data into a PostgresSQL database. 
+
+#### Machine Learning Module 
 
   1.) Description of preliminary data preprocessing :
   
