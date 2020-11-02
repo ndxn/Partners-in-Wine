@@ -81,7 +81,7 @@ Some of the challenges for finding the best weather data was to find zip codes t
   
 ![](image/Red_White_Wine_ERD.png)
 
-Once the relationship of the database was created, we use AWS TO create tables into a PostgresSQL database. 
+Once the relationship of the database was created, we use AWS to read and write data from our notebook to and from SQL. In SQL, we join soil table to the red wine table, and soil table to the white table. [SQLQuery](https://github.com/soijebor/Wine_Weather/blob/main/Wine_join.sql)
 
 #### Machine Learning Module 
 
