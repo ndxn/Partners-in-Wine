@@ -41,7 +41,7 @@ PostgreSQL will be the database we intend to use to store data.
 
 ### Machine Learning
 
-SciKitLearn is the ML library we'll be using to create a classifier.  Deep neural network was used to train our model. For the red and white wine's accuracy, we got 84% and 87% respectively.
+SciKitLearn is the ML library we'll be using to create a classifier.  Deep neural network, Random Forest, and Logistic regression were used to train our model.
 
 ### Dashboard
 
