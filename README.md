@@ -130,6 +130,8 @@ For splitting the data into training and testing sets I used sklearn train_test_
 * Deep Learning Neural Network -  The limitation of the model is that it requires a large amount of data and it's not easy to comprehend. The benefits of this model can solve complex problems.
 * Random Forest Classifier - The limitation is that features need to have some predictive power to work. The benefit is handling of huge amount of data, No problem of overfitting
 * Logistic Regression - The limitation of the model is  that  it can be easily outperformed by sturdier model like  Neural Networks,  also its high reliance on a proper presentation of your data. The benefits of this model are that it's easier to implement,  very efficient to train and it outputs well-calibrated predicted probabilities.
+
+We chose the Logistic Regression model as the best fit model for this analysis because of the structure of our data to help answer our questions after trying multiple models.
   
 ![](image/rs_500x283-150522135111-amy-schumer-oversized-glass-of-wine.gif)
 
