@@ -6,10 +6,13 @@
 
 Group #5 , Sonia , Val, Shawn, Neal, Viral and Meredith. 
 
-## Second Segement of four 11.01.2020
+## Second Segment of four 11.01.2020
 
 Group #5, Sonia , Val, Shawn, Neal, Viral and Meredith 
 
+## Third Segment of four 11.08.2020
+
+Group #5, Sonia , Val, Shawn, Neal, Viral and Meredith 
 
 ## Selected topic:
 
