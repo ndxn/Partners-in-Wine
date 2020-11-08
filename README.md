@@ -97,15 +97,16 @@ Look at results from wine data alone, wine data with weather data, wine data wit
 
  I started by loading the data into a panda Dataframe, then I followed these steps:
 
- * Checked and dropped null values
- * Convert the score column from float to integer and split score into good(1) and bad(0) and making it its own column "quality" to use as our target. 
+ * Checked for null values
+ * Checked the data types
+ * Converted the score column from float to integer and split score into good(1) which is any wine with a score >= 91 and bad(0) and making it its own column "quality" to use as our target. 
  * Checked for number of unique values in each column to find out which columns required binning and binned appellation. 
  * Created the OneHotEncoder instance,  Fitted the encoder and produce encoded DataFrame and renamed encoded columns.
  * Merged one-hot encoded features and drop the originals
 
 2.) Description of preliminary feature engineering and preliminary feature selection, including their decision making process:
 
-We decided to use the wine score to determine the quality of wine and for feature we decided to look at wine data by itself, wine data with weather data, wine data with soil data and wine data with weather and soil data.
+We used the wine score to determine the quality of wine and for feature we decided to look at wine data by itself and dropping all weather and soil data columns, wine data with weather data, wine data with soil data and wine data with weather and soil data. We also initialized the PCA to reduce the dimensions of the DataFrame
 
 3.) Description of how data was split into training and testing sets:
 
