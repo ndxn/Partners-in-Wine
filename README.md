@@ -93,7 +93,7 @@ Look at results from wine data alone, wine data with weather data, wine data wit
 
 ***[White Wine ML Notebook](https://colab.research.google.com/drive/1-_BtJxo7SUc-Q6tVwCBjJzZ3cLfpf-Jg?usp=sharing)***
 
-1.) Description of preliminary data preprocessing :
+***1.) Description of preliminary data preprocessing :***
 
  I started by loading the data into a panda Dataframe, then I followed these steps:
 
@@ -104,17 +104,32 @@ Look at results from wine data alone, wine data with weather data, wine data wit
  * Created the OneHotEncoder instance,  Fitted the encoder and produce encoded DataFrame and renamed encoded columns.
  * Merged one-hot encoded features and drop the originals
 
-2.) Description of preliminary feature engineering and preliminary feature selection, including their decision making process:
+***2.) Description of preliminary feature engineering and preliminary feature selection, including their decision making process:***
 
-We used the wine score to determine the quality of wine and for feature we decided to look at wine data by itself and dropping all weather and soil data columns, wine data with weather data, wine data with soil data and wine data with weather and soil data. We also initialized the PCA to reduce the dimensions of the DataFrame
+We used the wine score to determine the quality of wine and for feature we decided to look at wine data by itself and dropping all weather and soil data columns and unnecessary ccolumns from the wine data, wine data with weather data, wine data with soil data and wine data with weather and soil data.
 
-3.) Description of how data was split into training and testing sets:
+***3.) Description of how data was split into training and testing sets:***
 
 For splitting the data into training and testing sets I used sklearn train_test_split to split the dataset into random train and test subsets.
 
-4.) Explanation of model choice, including limitations and benefits :
+***4.) Model Choice, Benefits & Limitations:***
+ 
+* Deep Learning Neural Network -  The limitation of the model is that it requires a large amount of data and it's not easy to comprehend. The benefits of this model can solve complex problems.
+* Random Forest Classifier - The limitation is that features need to have some predictive power to work. The benefit is handling of huge amount of data, No problem of overfitting
+* Logistic Regression - The limitation of the model is  that  it can be easily outperformed by sturdier model like  Neural Networks,  also its high reliance on a proper presentation of your data. The benefits of this model are that it's easier to implement,  very efficient to train and it outputs well-calibrated predicted probabilities.
 
-  ## Red Wine
+We chose the Logistic Regression model as the best fit model for this analysis after trying multiple models and considering the structure of our data to help answer our questions.
+
+***5.) Changes made from Segment 2 to Segment 3:***
+ We added more hidden layers to our deep learning neural network and created a table for the predictions and actual predictions, and we initialized the PCA model.
+
+***6.) Description of how they have trained the model thus far, and any additional training that will take place:***
+So far, we have trained the model using deep learning neural network model with trying multiple hidden layers to get our current accuracy score, we also used the random forest classifer and the logistic regression.
+
+
+***7.) Current Accuracy Score: ****
+
+## Red Wine
 
   * For the Deep Learning Neural Network;
   
@@ -133,14 +148,7 @@ For splitting the data into training and testing sets I used sklearn train_test_
   * For Random Forest Classifier, we got an accuracy of 100% for white wine, 95% for white wine with weather, 96% for white wine with soil and 92% for white wine with weather and soil. 
   
   * For Logistic Regression, we got an accuracy of 90% for white wine, 90% for white wine with weather, 90% for white wine with soil and 90% for white wine with weather and soil. 
-
- ## Benefits & Limitations
- 
-* Deep Learning Neural Network -  The limitation of the model is that it requires a large amount of data and it's not easy to comprehend. The benefits of this model can solve complex problems.
-* Random Forest Classifier - The limitation is that features need to have some predictive power to work. The benefit is handling of huge amount of data, No problem of overfitting
-* Logistic Regression - The limitation of the model is  that  it can be easily outperformed by sturdier model like  Neural Networks,  also its high reliance on a proper presentation of your data. The benefits of this model are that it's easier to implement,  very efficient to train and it outputs well-calibrated predicted probabilities.
-
-We chose the Logistic Regression model as the best fit model for this analysis after trying multiple models and considering the structure of our data to help answer our questions.
+  
   
 ![](image/rs_500x283-150522135111-amy-schumer-oversized-glass-of-wine.gif)
 
