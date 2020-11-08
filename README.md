@@ -115,14 +115,22 @@ For splitting the data into training and testing sets I used sklearn train_test_
 
   ## Red Wine
 
-  * For the Deep Learning Neural Network, we got an accuracy of 87% for red wine, 86% for red wine with weather, 88% for red wine with soil and 85% for red wine with weather and soil.
+  * For the Deep Learning Neural Network;
+  
+  ![](https://github.com/soijebor/Wine_Weather/blob/main/image/Red_metrics.png)
+  
   * For Random Forest Classifier, we got an accuracy of 100% for red wine, 99% for red wine with weather, 100% for red wine with soil and 98% for red wine with weather and soil.
+  
   * For Logistic Regression, we got an accuracy of 95% for red wine, 95% for red wine with weather, 95% for red wine with soil and 95% for red wine with weather and soil. 
 
   ## White Wine
 
-  * For the Deep Learning Neural Network, we got an accuracy of 82% for white wine, 83% for red wine with weather, 83% for white wine with soil and 84% for white wine with weather and soil. 
-  * For Random Forest Classifier, we got an accuracy of 100% for white wine, 95% for white wine with weather, 97% for white wine with soil and 94% for white wine with weather and soil. 
+  * For the Deep Learning Neural Network;
+  
+  ![](https://github.com/soijebor/Wine_Weather/blob/main/image/White_metrics.png)
+  
+  * For Random Forest Classifier, we got an accuracy of 100% for white wine, 95% for white wine with weather, 96% for white wine with soil and 92% for white wine with weather and soil. 
+  
   * For Logistic Regression, we got an accuracy of 90% for white wine, 90% for white wine with weather, 90% for white wine with soil and 90% for white wine with weather and soil. 
 
  ## Benefits & Limitations
