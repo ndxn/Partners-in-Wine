@@ -81,10 +81,13 @@ Some of the challenges for finding the best weather data was to find zip codes t
  #### Database 
 
   The data was connected through primary keys (unique values in the main table). See the ERD of Red Wine and White Wine below:
-  
-![](image/Red_White_Wine_ERD.png)
+
 
 Once the relationship of the database was created, we use AWS to read and write data from our notebook to and from SQL. In SQL, we join soil table to the red wine table, and soil table to the white table. [SQLQuery](https://github.com/soijebor/Wine_Weather/blob/main/Database%20%26%20ML%20Notebooks/Wine_join.sql)
+
+![](Red_Wine_Soil_join.png)
+
+![](White_Wine_Soil_join.png)
 
 ***[Database Notebook](https://colab.research.google.com/drive/1VZLidDt7rMeo9TxoEEyR0zL_bbrxcGTJ?usp=sharing)***
 
