@@ -97,9 +97,9 @@ Look at results from wine data alone, wine data with weather data, wine data wit
   
 #### Machine Learning Module 
 
-***[Red Wine ML Notebook](https://colab.research.google.com/drive/1WkwaS39cydCKG4UDTj3ZkPOxPKXn4VY7?usp=sharing)***
+***[Red Wine ML Notebook](https://colab.research.google.com/drive/1ckrBJJ_k2FTOnSbY1rk-UpBX74vxWUBo?usp=sharing)***
 
-***[White Wine ML Notebook](https://colab.research.google.com/drive/1-_BtJxo7SUc-Q6tVwCBjJzZ3cLfpf-Jg?usp=sharing)***
+***[White Wine ML Notebook](https://colab.research.google.com/drive/1F4AWng0C0er5_jfg5qnsS19nUVLXQ2eM?usp=sharing)***
 
 ***1.) Description of preliminary data preprocessing :***
 
