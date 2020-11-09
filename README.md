@@ -27,6 +27,7 @@ We like wine , diverse dataset, enough information to pull across three API's. O
 * Wine API - https://www.globalwinescore.com/api/ 
 * Weather API - https://www.ncei.noaa.gov/access/search/data-search/global-summary-of-the-year
 * Weather Analysis - https://www.evineyardapp.com/blog/2019/01/17/climate-weather-and-vineyard-management/
+* Red and White Wine pic - https://wineonmytime.com/wp-content/uploads/2019/09/Can-You-Mix-Red-and-White-Wine-Hero.png
 
 ## Resources
 
