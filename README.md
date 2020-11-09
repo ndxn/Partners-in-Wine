@@ -135,7 +135,7 @@ We chose the Logistic Regression model as the best fit model for this analysis a
 So far, we have trained the model using deep learning neural network model with trying multiple hidden layers to get our current accuracy score, we also used the random forest classifer and the logistic regression.
 
 
-***7.) Current Accuracy Score: ****
+***7.) Current Accuracy Score: ***
 
 ## Red Wine
 
