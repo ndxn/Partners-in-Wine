@@ -162,10 +162,9 @@ So far, we have trained the model using deep learning neural network model with 
 
 ## Questions the team hopes to answer with the data:
 
-* How does weather impact wine quality?
-    * How do wine scores correlate with weather? Averages ? How can we use this to predict wine quality ? 
-    * How does score vary by region in USA , by type ( red, white) ?
-    
-* How does soil quality affect wine quality ?
+   * How does weather impact wine quality?
+   * How does score vary by region in USA , by type ( red, white) ?
+   * How does soil quality affect wine quality ?
+
 
 
