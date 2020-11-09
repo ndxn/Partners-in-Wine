@@ -28,8 +28,9 @@ We like wine , diverse dataset, enough information to pull across three API's. O
 * Weather API - https://www.ncei.noaa.gov/access/search/data-search/global-summary-of-the-year
 * Weather Analysis - https://www.evineyardapp.com/blog/2019/01/17/climate-weather-and-vineyard-management/
 * Red and White Wine pic - https://wineonmytime.com/wp-content/uploads/2019/09/Can-You-Mix-Red-and-White-Wine-Hero.png
+* Amy-Schumer-oversized-glass-of-wine.gif https://i1.wp.com/foolishwatcher.com/wp-content/uploads/2017/05/amy-schumer-oversized-glass-of-wine.gif?resize=500%2C283&ssl=1
 
-## Resources
+##  Resources
 
 Data Source:  Python 3.7.6, Anaconda 4.8.4, Jupyter Notebook 6.0.3, Google Colaboratory, spark 3.0.1, java-11, PostgreSQL11.8 (pgAdmin 4.23)
  
