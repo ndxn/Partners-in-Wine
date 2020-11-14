@@ -1,5 +1,0 @@
-﻿,Loss,False Negatives,False Positives,True Negatives,True Positives,Precision,Recall,Accuracy
-Red wine,0.537,86,148,201,590,0.799,0.873,0.771
-Red wine with weather,0.708,125,142,207,551,0.795,0.815,0.740
-Red wine with soil,0.531,101,144,205,575,0.800,0.851,0.761
-Red wine with weather & soil,0.568,125,132,217,551,0.807,0.815,0.749
