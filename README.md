@@ -107,12 +107,14 @@ Look at results from wine data alone, wine data with weather data, wine data wit
 
  I started by loading the data into a panda Dataframe, then I followed these steps:
 
- * Checked for null values
- * Checked the data types
- * Converted the score column from float to integer and split score into good(1) which is any wine with a score >= 91 and bad(0) and making it its own column "quality" to use as our target. 
+ * Checked for null values.
+ * Checked the data types.
+ * Split the wine column to get the vineyards column.
+ * Dropped columns not important to the model.
+ * Converted the score column from float to integer and split score into good(1) which is any wine with a score >= 91 and bad(0) and making it its own column "quality" to use as our target and dropped the score column. 
  * Checked for number of unique values in each column to find out which columns required binning and binned appellation. 
  * Created the OneHotEncoder instance,  Fitted the encoder and produce encoded DataFrame and renamed encoded columns.
- * Merged one-hot encoded features and drop the originals
+ * Merged one-hot encoded features and drop the originals.
 
 ***2.) Description of preliminary feature engineering and preliminary feature selection, including their decision making process:***
 
@@ -141,23 +143,31 @@ So far, we have trained the model using deep learning neural network model with 
 
 ## Red Wine
 
-  * For the Deep Learning Neural Network;
+  * ***For the Deep Learning Neural Network;***
   
-  ![](https://github.com/soijebor/Wine_Weather/blob/main/image/Red_metrics.png)
+  ![](https://github.com/soijebor/Wine_Weather/blob/main/image/Metrics%20images/Red_Wine_DLNN.png)
   
-  * For Random Forest Classifier, we got an accuracy of 100% for red wine, 99% for red wine with weather, 100% for red wine with soil and 98% for red wine with weather and soil.
+  * ***For Random Forest Classifier;***
   
-  * For Logistic Regression, we got an accuracy of 95% for red wine, 95% for red wine with weather, 95% for red wine with soil and 95% for red wine with weather and soil. 
+  ![](https://github.com/soijebor/Wine_Weather/blob/main/image/Metrics%20images/Red_Wine_RF.png)
+  
+  * ***For Logistic Regression;*** 
+  
+  ![](https://github.com/soijebor/Wine_Weather/blob/main/image/Metrics%20images/Red_Wine_LR.png)
 
   ## White Wine
 
-  * For the Deep Learning Neural Network;
+  * ***For the Deep Learning Neural Network;***
   
-  ![](https://github.com/soijebor/Wine_Weather/blob/main/image/White_metrics.png)
+  ![](https://github.com/soijebor/Wine_Weather/blob/main/image/Metrics%20images/White_Wine_DLNN.png)
   
-  * For Random Forest Classifier, we got an accuracy of 100% for white wine, 95% for white wine with weather, 96% for white wine with soil and 92% for white wine with weather and soil. 
+  * ***For Random Forest Classifier;***
   
-  * For Logistic Regression, we got an accuracy of 90% for white wine, 90% for white wine with weather, 90% for white wine with soil and 90% for white wine with weather and soil. 
+  ![](https://github.com/soijebor/Wine_Weather/blob/main/image/Metrics%20images/White_Wine_RF.png)
+  
+  * ***For Logistic Regression;*** 
+  
+  ![](https://github.com/soijebor/Wine_Weather/blob/main/image/Metrics%20images/White_Wine_LR.png)
   
   
 ![](image/rs_500x283-150522135111-amy-schumer-oversized-glass-of-wine.gif)
