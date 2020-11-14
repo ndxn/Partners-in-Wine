@@ -1,5 +1,0 @@
-﻿,Loss,False Negatives,False Positives,True Negatives,True Positives,Precision,Recall,Accuracy
-White wine,0.670,27,18,57,81,0.818,0.75,0.754
-White wine with weather,0.768,27,17,58,81,0.827,0.75,0.76
-White wine with soil,0.585,28,14,61,80,0.851,0.741,0.770
-White wine with weather & soil,0.685,24,15,60,84,0.848,0.778,0.787
