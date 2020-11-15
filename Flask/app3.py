@@ -3,12 +3,14 @@ from flask import Flask, request, jsonify, render_template
 import pickle
 
 app = Flask(__name__)
-model_red = pickle.load(open(model_red.pkl, 'rb'))
-scaler_red = pickle.load(open(scaler_red.pkl, 'rb'))
 one_hot_red = pickle.load(open(one_hot_red.pkl, 'rb'))
-model_white = pickle.load(open(model_white.pkl, 'rb'))
-scaler_white = pickle.load(open(scaler_white.pkl, 'rb'))
+scaler_red = pickle.load(open(scaler_red.pkl, 'rb'))
+model_red = pickle.load(open(model_red.pkl, 'rb'))
+
 one_hot_white = pickle.load(open(one_hot_white.pkl, 'rb'))
+scaler_white = pickle.load(open(scaler_white.pkl, 'rb'))
+model_white = pickle.load(open(model_white.pkl, 'rb'))
+
 
 soil_df: pd.DataFrame = pd.read_csv('soil.csv')
 weather_df: pd.DataFrame = pd.read_csv('weather.csv')
