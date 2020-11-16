@@ -112,7 +112,7 @@ Look at results from wine data alone, wine data with weather data, wine data wit
 
  * Checked for null values and duplicates.
  * Checked the data types.
- * Split the wine column to get the vineyards column.
+ * Split the wine column to get the vineyard column.
  * Dropped columns not important to the model.
  * Converted the score column from float to integer and split score into good(1) which is any wine with a score >= 91 and bad(0) and making it its own column "quality" to use as our target and dropped the score column. 
  * Checked for number of unique values in each column to find out which columns required binning and binned appellation. 
