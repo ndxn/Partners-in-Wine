@@ -52,7 +52,7 @@ SciKitLearn is the ML library we'll be using to create a classifier.  Deep neura
 
 Tableau will be used to connect the database and create visualizations. 
 
-***Link to our Tableau dashboard: [Wine Quality Dashboard](https://public.tableau.com/profile/lauren.sanders5168#!/)
+***Link to our Tableau dashboard: [Wine Quality Dashboard](https://public.tableau.com/profile/valencia.loyd2616#!/vizhome/Group_5_wine_16046307141490/PartnersinWine?publish=yes)
 
 ## Communication Protocols
 
