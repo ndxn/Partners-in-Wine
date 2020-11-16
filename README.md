@@ -14,6 +14,10 @@ Group #5, Sonia , Val, Shawn, Neal, Viral and Meredith
 
 Group #5, Sonia , Val, Shawn, Neal, Viral and Meredith 
 
+## Fourth Segment of four 11.15.2020
+
+Group #5, Sonia , Val, Shawn, Neal, Viral and Meredith 
+
 ## Selected topic:
 
 Weather and soil conditions affecting wine quality
@@ -106,7 +110,7 @@ Look at results from wine data alone, wine data with weather data, wine data wit
 
  I started by loading the data into a panda Dataframe, then I followed these steps:
 
- * Checked for null values.
+ * Checked for null values and duplicates.
  * Checked the data types.
  * Split the wine column to get the vineyards column.
  * Dropped columns not important to the model.
