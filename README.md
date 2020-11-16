@@ -104,7 +104,7 @@ Look at results from wine data alone, wine data with weather data, wine data wit
 
 ***[Red Wine ML Notebook](https://colab.research.google.com/drive/1hsgAFDhkRM_FhuLIrk_RMnTYQ8Tw5zkP?usp=sharing)***
 
-***[White Wine ML Notebook](https://colab.research.google.com/drive/13G0pa30IXZxI70mRwgxi4HnwUHfe0drq?usp=sharing)***
+***[White Wine ML Notebook](https://colab.research.google.com/drive/1gieR79g2leKOEltf67D-5eiiFt4LlEQq?usp=sharing)***
 
 ***1.) Description of preliminary data preprocessing :***
 
