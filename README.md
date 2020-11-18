@@ -1,5 +1,5 @@
 ![](image/Vineyard-chalk-soil.jpg)
-![](image/Partners In Wine.PNG)
+
 
 # *Partners In Wine*
 
