@@ -176,6 +176,11 @@ So far, we have trained the model using deep learning neural network model with 
   
 ![](image/rs_500x283-150522135111-amy-schumer-oversized-glass-of-wine.gif)
 
+## Flask App/HTML
+![](image/Partners In Wine.PNG)
+The flask app was desgined along with the HTML to allow users to input data into our app and determine if a particular wine from a particular year is a good vintage. The app takes in inputs such as: red or white wine, vintage, and the vineyard where the wine comes from. The app then uses the Machine Learning model to determine if the wine is of high quality or low quality.
+
+
 ## Questions the team hopes to answer with the data:
 
    * How does weather impact wine quality?
