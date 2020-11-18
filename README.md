@@ -110,16 +110,18 @@ Look at results from wine data alone, wine data with weather data, wine data wit
 
 ***1.) Description of preliminary data preprocessing :***
 
- I started by loading the data into a panda Dataframe, then I followed these steps:
-
+ * Acquire the dataset
+ * Import the dependencies
+ * Import the dataset
  * Checked for null values and duplicates.
  * Checked the data types.
  * Split the wine column to get the vineyard column.
- * Dropped columns not important to the model.
+ * Dropped the following columns(wine_id, wine, regions, is_primeurs, confidence_index, journalist_count, color, country) not important to the model.
  * Converted the score column from float to integer and split score into good(1) which is any wine with a score >= 91 and bad(0) and making it its own column "quality" to use as our target and dropped the score column. 
- * Checked for number of unique values in each column to find out which columns required binning and binned appellation. 
- * Created the OneHotEncoder instance,  Fitted the encoder and produce encoded DataFrame and renamed encoded columns.
- * Merged one-hot encoded features and drop the originals.
+ * Checked for number of unique values in each column to find out which columns required binning and binned vineyard. 
+ * Created the OneHotEncoder instance,  Fitted the encoder and produce encoded DataFrame,  renamed encoded columns and merged one-hot encoded features and drop the originals.
+ * Split the data into training and testing sets
+ * Scaled the data using the StandardScaler
 
 ***2.) Description of preliminary feature engineering and preliminary feature selection, including their decision making process:***
 
