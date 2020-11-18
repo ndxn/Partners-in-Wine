@@ -33,6 +33,7 @@ We like wine , diverse dataset, enough information to pull across three API's. O
 * Weather Analysis - https://www.evineyardapp.com/blog/2019/01/17/climate-weather-and-vineyard-management/
 * Red and White Wine pic - https://wineonmytime.com/wp-content/uploads/2019/09/Can-You-Mix-Red-and-White-Wine-Hero.png
 * Amy-Schumer-oversized-glass-of-wine.gif https://i1.wp.com/foolishwatcher.com/wp-content/uploads/2017/05/amy-schumer-oversized-glass-of-wine.gif?resize=500%2C283&ssl=1
+* Grapes In Hands https://www.focusfitness.net/stock-photos/downloads/man-hands-holding-grapes-healthy-eating-concept/
 
 ##  Resources
 
