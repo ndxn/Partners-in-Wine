@@ -3,9 +3,11 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+# Ignore the config.py file.
+config.py
+
 # C extensions
 *.so
-config.py
 .DS_Store
 # Distribution / packaging
 .Python
