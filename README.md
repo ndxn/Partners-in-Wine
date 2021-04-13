@@ -3,22 +3,6 @@
 
 # *Partners In Wine*
 
-## First Segment of four 10.18.2020 
-
-Group #5 , Sonia , Val, Shawn, Neal, Viral and Meredith. 
-
-## Second Segment of four 11.01.2020
-
-Group #5, Sonia , Val, Shawn, Neal, Viral and Meredith 
-
-## Third Segment of four 11.08.2020
-
-Group #5, Sonia , Val, Shawn, Neal, Viral and Meredith 
-
-## Fourth Segment of four 11.15.2020
-
-Group #5, Sonia , Val, Shawn, Neal, Viral and Meredith 
-
 ## Selected topic:
 
 Weather and soil conditions affecting wine quality
